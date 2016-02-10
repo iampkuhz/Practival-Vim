@@ -3,14 +3,13 @@
 > 1. 参数列表易于管理，将其分组易于访问
 > 2. `:argdo` 用法
 
-#Tip37: Group Buffers into a Collection with the Argument List  
+1. 假设我们已经使用`vim *.vim`打开了一些txt文件
 
+2. `:args` 查看参数列表
+>  ![tip37_1](../../images/tip37_1.png) <br>
+> `[]`覆盖的文件表明**活动文件** <br>
+> `:args` 比 `:ls`的显示简陋 <br>
 
-1. 假设我们已经使用`vim *.vim`打开了一些txt文件：
-2. `:args` 查看参数列表：
->![tip37_1](../../images/tip37_1.png)  
-> `[]`覆盖的文件表明**活动文件**
-> `:args` 比 `:ls`的显示简陋
 3. `:args {arglist}` 可以**指定**参数列表的内容，例子如下:
 > ![tip37_2](../../images/tip37_2.png)  
 > `{arglist}` 也可是通配符，比如`:args *.txt`,对于打开大量文件有优势
@@ -30,6 +29,7 @@
 
 1. 假设要打开的文件名已经存放在一个文本文件中:
 >![tip37_4](../../images/tip37_5.png)  
+
 2. 使用``:args `cat .chapters` ``即可打开这4个pml文件
 
 ## 参数列表 vs 缓冲区列表
@@ -38,7 +38,7 @@
 2. `:args {arglist}` 一下就可清空缓冲区，并设置新的缓冲区列表
 
 3. 缓冲区列表像`桌面(desktop)`，乱七八糟；参数列表像`工作区（workspace）`, 只在需要扩展空间时用到
-> [技巧69](tip69.md),[技巧96](tip96.md) 有参数列表的例子
+> [技巧69](),[技巧96]() 有参数列表的例子
 
 
 <br>  
