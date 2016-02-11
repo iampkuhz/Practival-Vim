@@ -1,4 +1,4 @@
-《Practical Vim》（《Vim实用技巧》）笔记，参考了[gitig/Practical-Vim-Notes](https://github.com/gitig/Practical-Vim-Notes) 和`中文版 Practical Vim`，加入了一些我的理解和例子
+《Practical Vim》（《Vim实用技巧》）笔记，参考了[gitig/Practical-Vim-Notes](https://github.com/gitig/Practical-Vim-Notes) 和`中文版 Practical Vim`，加入了一些我的理解和例子, 教程的[写作方式](tip1.markdown)
 
 ## 第1章 Vim 解决问题的方式
 技巧 1. [认识`.`命令](part0/tip1.md):  `.`,`x`,`u`,`dd`,`>G`,`h`,`j`,`k`,`l` <br>
@@ -82,9 +82,11 @@
 > 3. 将Ex命令作用在缓冲区每个文件上
 > 4. 标签页分割窗口
 
-技巧 30. [](part1_pattern/chapter5_ex_mode/tip30.md):  <br>
-
-
+技巧 36. [用缓冲区列表管理打开的文件](part2_file/chapter6_multi_files/tip36.md):  `:bnext`, `:ls`, `<C-^>`, `:bprev`, `:bfirst`, `:blast`, `:buffer N`, `:buffer {bufname}`, `:bufdo`, `:argdo`, `:bd[elete]`<br>
+技巧 37. [用参数列表将缓冲区分组](part2_file/chapter6_multi_files/tip37.md):  `:args {arglist}`<br>
+技巧 38. [管理隐藏缓冲区](part2_file/chapter6_multi_files/tip38.md):  `:wirte`, `:edit!`, `qall!`, `:wall`<br>
+技巧 39. [将工作区分成窗口](part2_file/chapter6_multi_files/tip39.md):  `<C-w>s`, `<C-w>v`, `:edit`, `:close`, `:only`<br>
+技巧 40. [用标签页将窗口分组](part2_file/chapter6_multi_files/tip40.md): `:lcd{path}`, `:tabe[dit] {filename}`, `:tabmove [N]` <br>
 
 ## 第7章 打开及保存文件
 
@@ -93,6 +95,11 @@
 > 3. `netrw`插件查看目录树
 > 4. 保存文件的时候如果没有**写权限**或是目标路径不存在怎么办？
 
+技巧 41. [用`:edit`命令打开文件](part2_file/chapter7_file_opr/tip41.md): `:edit %<Tab>`, `:edit %:h<Tab>`<br>
+技巧 42. [使用`:find`打开文件](part2_file/chapter7_file_opr/tip42.md): `:find`, `:set path+=app/**`<br>
+技巧 43. [使用netrw管理文件系统](part2_file/chapter7_file_opr/tip43.md):`:edit .`, `:e.`, `:Explore`, `:E.` <br>
+技巧 44. [把文件保存到不存在的目录中](part2_file/chapter7_file_opr/tip44.md): `<C-g>`, `:!mkdir -p %:h`<br>
+技巧 45. [以超级用户权限保存文件](part2_file/chapter7_file_opr/tip45.md): `:w !sudo tee % > /dev/null` <br>
 
 
 # 第三部分 更快的移动和跳转
@@ -105,3 +112,13 @@
 > 2. 上下左右移动、一次移动一个单词、通过查找命令快速移动
 > 3. 操作符待决模式
 > 4. 查看vim文档`:h motion`
+
+技巧 46. [让手指保持在 `本位行（Home Row）`上](part3_fast_move/chapter8_doc_jump/tip46.md):  `h,j,k,l`<br>
+技巧 47. [区分实际行和屏幕行](part3_fast_move/chapter8_doc_jump/tip47.md):`gj`, `gk`, `g0`, `g$`, `g^`  <br>
+技巧 48. [基于单词移动](part3_fast_move/chapter8_doc_jump/tip48.md):`w`, `b`, `e`, `ge`, `ea`, `gea`, `W`, `cW` <br>
+技巧 49. [对字符串进行查找](part3_fast_move/chapter8_doc_jump/tip49.md):`f{char}`, `;`, `,`, `F{char}`, `t{char}`, `T{char}`, `dt.`  <br>
+技巧 50. [通过查找进行移动](part3_fast_move/chapter8_doc_jump/tip50.md):`/{char}`, `n`, `N`   <br>
+技巧 51. [用精确的文本对象选择选取](part3_fast_move/chapter8_doc_jump/tip51.md):`vi}`, `a"`, `i"`, `at`, `it`  <br>
+技巧 52. [删除周边，修改内部](part3_fast_move/chapter8_doc_jump/tip52.md):`iw`, `iW`, `is`, `ip`, `aw`, `aW`, `as`, `ap`  <br>
+技巧 53. [设置位置标记，以便快速跳回](part3_fast_move/chapter8_doc_jump/tip53.md):`m{a-zA-Z}`, `'{mark}`  <br>
+技巧 54. [在匹配括号间跳转](part3_fast_move/chapter8_doc_jump/tip54.md):`%`, `S"`  <br>

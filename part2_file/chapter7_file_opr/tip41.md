@@ -12,7 +12,7 @@ shell 命令的`pwd`显示当前的路径（`print working directory`)
 2. `:edit %:h<Tab>`
 > `%:h` 表示当前工作区文件所在文件夹的完整路径
 
-> **note**
+**note** <br>
 > 在vimrc中添加`cnoremap <expr> $$ getcmdtype() == ':' ? expand('%:h').'/':'%%'`，则每次在命令行模式中输入`%%`，都会自动显示当前工作目录路径
 
 
