@@ -123,4 +123,5 @@
     * 技巧 52. [删除周边，修改内部](part3_fast_move/chapter8_doc_jump/tip52.md):`iw`, `iW`, `is`, `ip`, `aw`, `aW`, `as`, `ap` 
     * 技巧 53. [设置位置标记，以便快速跳回](part3_fast_move/chapter8_doc_jump/tip53.md):`m{a-zA-Z}`, `'{mark}` 
     * 技巧 54. [在匹配括号间跳转](part3_fast_move/chapter8_doc_jump/tip54.md):`%`, `S"`  * 第9章 在文件间跳转
-    * 技巧 55. [遍历跳转列表](part3_fast_move/chapter9_file_jump/tip55.md): `<C-o>`, `<C-i>` * 技巧 56. [遍历改变列表](part3_fast_move/chapter9_file_jump/tip56.md): `:changes`, *`.*, *`^*, `gi` * 技巧 57. [跳转到光标下的文件](part3_fast_move/chapter9_file_jump/tip57.md): `gf`, `:set path?` * 技巧 58. [用全局位置标记在文件间快速跳转](part3_fast_move/chapter9_file_jump/tip58.md): `:vimgrep`, `` `{char}``
+    * 技巧 55. [遍历跳转列表](part3_fast_move/chapter9_file_jump/tip55.md): `<C-o>`, `<C-i>` 
+    * 技巧 56. [遍历改变列表](part3_fast_move/chapter9_file_jump/tip56.md): `:changes`, *`.*, *`^*, `gi` * 技巧 57. [跳转到光标下的文件](part3_fast_move/chapter9_file_jump/tip57.md): `gf`, `:set path?` * 技巧 58. [用全局位置标记在文件间快速跳转](part3_fast_move/chapter9_file_jump/tip58.md): `:vimgrep`, `` `{char}``
