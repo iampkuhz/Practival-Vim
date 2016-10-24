@@ -14,9 +14,9 @@
 
 
 
-* 第一部分 模式
+* [第一部分 模式](part1_pattern/chapter2_normal_pattern/tip7.md)
 
-  * 第2章 普通模式
+  * [第2章 普通模式](part1_pattern/chapter2_normal_pattern/tip7.md)
 ```
 > 1. 普通模式在执行时可以指定执行次数
 > 2. 指定执行次数可以减少按键次数,但是有的时候多按几次更好: 计算按键次数可能费脑子, 不如直接next,next一直到目的地
