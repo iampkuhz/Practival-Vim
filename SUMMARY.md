@@ -157,4 +157,5 @@
     * 技巧 66. [加次数回放宏](part4_register/chapter11_macro/tip66.md):*`qq;.q`
     * 技巧 67. [在连续的文本行上重复修改](part4_register/chapter11_macro/tip67.md):*`0`, `:normal @a` 
     * 技巧 68. [给宏追加命令](part4_register/chapter11_macro/tip68.md):*`qa`, `qA` 
-    * 技巧 69. [在一组文件中执行宏](part4_register/chapter11_macro/tip69.md):*`gg/class<CR>`, `:argdo`, `:edit!`, `:argdo normal @a`, `:argdo write`, `:wall`, `:wnext`** 技巧 70. [用迭代求值的方式给列表编号](part4_register/chapter11_macro/tip70.md):*`:let i=0`, `:echo i`, `<C-r>=i<CR>` * 技巧 71. [编辑宏的内容](part4_register/chapter11_macro/tip71.md):*`~`, `vU`, `:put a` <br>
+    * 技巧 69. [在一组文件中执行宏](part4_register/chapter11_macro/tip69.md):*`gg/class<CR>`, `:argdo`, `:edit!`, `:argdo normal @a`, `:argdo write`, `:wall`, `:wnext`
+    * 技巧 70. [用迭代求值的方式给列表编号](part4_register/chapter11_macro/tip70.md):*`:let i=0`, `:echo i`, `<C-r>=i<CR>` * 技巧 71. [编辑宏的内容](part4_register/chapter11_macro/tip71.md):*`~`, `vU`, `:put a` <br>
