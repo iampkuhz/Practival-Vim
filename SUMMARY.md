@@ -24,9 +24,29 @@
     * [操作+操作符 双剑合璧](part1_pattern/chapter2_normal_pattern/tip12.md)
 
   * 第3章 插入模式
-
-    * \[在插入模式中回退\/撤销\]\(part1\_pattern\/chapter3\_insert\_mode\/tip13.md\)
-
+    * [在插入模式中回退/撤销](part1_pattern/chapter3_insert_mode/tip13.md): `<C-x>`,`<C-w>`,`<C-u>` <br>
 
 
+
+技巧 14. [返回普通模式](part1_pattern/chapter3_insert_mode/tip14.md): `<` <br>
+
+
+
+技巧 15. [不离开插入模式, 粘贴寄存器中的文本](part1_pattern/chapter3_insert_mode/tip15.md): `yt,`,`<C-r>0` <br>
+
+
+
+技巧 16. [随时随地做运算](part1_pattern/chapter3_insert_mode/tip16.md): `<C-r>=` <br>
+
+
+
+技巧 17. [用字符编码插入非常用字符](part1_pattern/chapter3_insert_mode/tip17.md): `<C-v>{123}`,`<C-v>u{1234}`,`<C-v><CR>`<br>
+
+
+
+技巧 18. [用二合字母(digraph)插入非常用字符](part1_pattern/chapter3_insert_mode/tip18.md): `<C-k>35`,`<C-k>?I`,`<C-k><<` <br>
+
+
+
+技巧 19. [使用替换模式替换已有文本](part1_pattern/chapter3_insert_mode/tip19.md): `R`,`r` <br>
 
