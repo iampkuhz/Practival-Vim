@@ -74,7 +74,9 @@
     * 技巧 34. [回溯历史命令](part1_pattern/chapter5_ex_mode/tip34.md):`q:` 
     * 技巧 35. [运行Shell命令](part1_pattern/chapter5_ex_mode/tip35.md): `:ls`,`:write! sh`,`:write !sh`,`:2,$!sort -t',' -k2,2`
 
+
 * 第二部分 文件 
+  
   * 第6章 管理多个文件
 ```
 > 1. 缓冲区列表记录打开的所有文件
@@ -86,7 +88,9 @@
     * 技巧 37. [用参数列表将缓冲区分组](part2_file/chapter6_multi_files/tip37.md): `:args {arglist}`
     * 技巧 38. [管理隐藏缓冲区](part2_file/chapter6_multi_files/tip38.md): `:wirte`, `:edit!`, `qall!`, `:wall`
     * 技巧 39. [将工作区分成窗口](part2_file/chapter6_multi_files/tip39.md): `<C-w>s`, `<C-w>v`, `:edit`, `:close`, `:only`
-    * 技巧 40. [用标签页将窗口分组](part2_file/chapter6_multi_files/tip40.md): `:lcd{path}`, `:tabe[dit] {filename}`, `:tabmove [N]`  * 第7章 打开及保存文件> 1. 介绍在vim 中打开文件的方式> 2. 配置`path`选项之后利用`:find` 命令打开文件> 3. `netrw`插件查看目录树> 4. 保存文件的时候如果没有*写权限*或是目标路径不存在怎么办？
+    * 技巧 40. [用标签页将窗口分组](part2_file/chapter6_multi_files/tip40.md): `:lcd{path}`, `:tabe[dit] {filename}`, `:tabmove [N]`  
+  
+  * 第7章 打开及保存文件> 1. 介绍在vim 中打开文件的方式> 2. 配置`path`选项之后利用`:find` 命令打开文件> 3. `netrw`插件查看目录树> 4. 保存文件的时候如果没有*写权限*或是目标路径不存在怎么办？
     * 技巧 41. [用`:edit`命令打开文件](part2_file/chapter7_file_opr/tip41.md): `:edit %<Tab>`, `:edit %:h<Tab>`
     * 技巧 42. [使用`:find`打开文件](part2_file/chapter7_file_opr/tip42.md): `:find`, `:set path+=app/*`
     * 技巧 43. [使用netrw管理文件系统](part2_file/chapter7_file_opr/tip43.md):`:edit .`, `:e.`, `:Explore`, `:E.` 
