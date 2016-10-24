@@ -90,4 +90,5 @@
     * 技巧 41. [用`:edit`命令打开文件](part2_file/chapter7_file_opr/tip41.md): `:edit %<Tab>`, `:edit %:h<Tab>`
     * 技巧 42. [使用`:find`打开文件](part2_file/chapter7_file_opr/tip42.md): `:find`, `:set path+=app/*`
     * 技巧 43. [使用netrw管理文件系统](part2_file/chapter7_file_opr/tip43.md):`:edit .`, `:e.`, `:Explore`, `:E.` 
-    * 技巧 44. [把文件保存到不存在的目录中](part2_file/chapter7_file_opr/tip44.md): `<C-g>`, `:!mkdir -p %:h`* 技巧 45. [以超级用户权限保存文件](part2_file/chapter7_file_opr/tip45.md): `:w !sudo tee % > /dev/null`
+    * 技巧 44. [把文件保存到不存在的目录中](part2_file/chapter7_file_opr/tip44.md): `<C-g>`, `:!mkdir -p %:h`
+    * 技巧 45. [以超级用户权限保存文件](part2_file/chapter7_file_opr/tip45.md): `:w !sudo tee % > /dev/null`
