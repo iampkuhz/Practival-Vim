@@ -27,12 +27,8 @@
     * [在插入模式中回退/撤销](part1_pattern/chapter3_insert_mode/tip13.md): `<C-x>`,`<C-w>`,`<C-u>`
     * 技巧 14. [返回普通模式](part1_pattern/chapter3_insert_mode/tip14.md): `<` 
     * 技巧 15. [不离开插入模式, 粘贴寄存器中的文本](part1_pattern/chapter3_insert_mode/tip15.md): `yt,`,`<C-r>0`
-
     * 技巧 16. [随时随地做运算](part1_pattern/chapter3_insert_mode/tip16.md): `<C-r>=` <br>
-
-
-
-技巧 17. [用字符编码插入非常用字符](part1_pattern/chapter3_insert_mode/tip17.md): `<C-v>{123}`,`<C-v>u{1234}`,`<C-v><CR>`<br>
+    * 技巧 17. [用字符编码插入非常用字符](part1_pattern/chapter3_insert_mode/tip17.md): `<C-v>{123}`,`<C-v>u{1234}`,`<C-v><CR>`<br>
 
 
 
