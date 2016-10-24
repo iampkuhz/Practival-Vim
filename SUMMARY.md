@@ -128,3 +128,4 @@
     * 技巧 56. [遍历改变列表](part3_fast_move/chapter9_file_jump/tip56.md): `:changes`, *`.*, *`^*, `gi` 
     * 技巧 57. [跳转到光标下的文件](part3_fast_move/chapter9_file_jump/tip57.md): `gf`, `:set path?` 
     * 技巧 58. [用全局位置标记在文件间快速跳转](part3_fast_move/chapter9_file_jump/tip58.md): `:vimgrep`, `` `{char}``
+
