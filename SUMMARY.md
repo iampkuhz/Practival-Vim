@@ -58,3 +58,7 @@
     * 技巧 24. [用面向__列块__的可视模式编辑**表格数据**](part1_pattern/chapter4_visual_mode/tip24.md): `<C-v>3jr|`     
     * 技巧 25. [修改列文本](part1_pattern/chapter4_visual_mode/tip25.md): `<C-v>jjec<Esc>`    
     * 技巧 26. [在长短不一的高亮块中添加文本](part1_pattern/chapter4_visual_mode/tip26.md): `<C-v>jj$c<Esc>`
+
+ * 第5章 命令行模式
+```> 1. `ex` 本来是一个行编辑器, 是`vi`的祖先> 2. 基于行的编辑任务, Ex 命令是最佳工具
+```    * 技巧 27. [结识Vim的命令行模式](part1_pattern/chapter5_ex_mode/tip27.md): `:`,`<C-w>`     * 技巧 28. [在一行或多个连续行上执行命令](part1_pattern/chapter5_ex_mode/tip28.md): `:2,5p`,`:%s/old/new/gc`,`:/<html>/-1,/<\/html>/+1p`     * 技巧 29. [使用`:t` `:m` 进行复制和移动行](part1_pattern/chapter5_ex_mode/tip29.md): `:6t.`,`Vjj:m$` * 技巧 30. [在指定范围上执行普通模式命令](part1_pattern/chapter5_ex_mode/tip30.md): `:'<,'>normal .` * 技巧 31. [重复上次的Ex命令](part1_pattern/chapter5_ex_mode/tip31.md):`:@:`, `:bp`,`:bn` * 技巧 32. [自动补全Ex命令](part1_pattern/chapter5_ex_mode/tip32.md):`<Tab>`,`<C-n>`,`<C-p>` * 技巧 33. [把当前单词插入到命令行](part1_pattern/chapter5_ex_mode/tip33.md): `/<C-r><C-w><CR>`, `*:%s//<C-r><C-w>/g` * 技巧 34. [回溯历史命令](part1_pattern/chapter5_ex_mode/tip34.md):`q:` * 技巧 35. [运行Shell命令](part1_pattern/chapter5_ex_mode/tip35.md): `:ls`,`:write! sh`,`:write !sh`,`:2,$!sort -t',' -k2,2`
