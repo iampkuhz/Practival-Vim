@@ -129,4 +129,19 @@
     * 技巧 57. [跳转到光标下的文件](part3_fast_move/chapter9_file_jump/tip57.md): `gf`, `:set path?` 
     * 技巧 58. [用全局位置标记在文件间快速跳转](part3_fast_move/chapter9_file_jump/tip58.md): `:vimgrep`, `` `{char}``
 
-# 第四部分 寄存器> 1. 寄存器是保存文本的容器> 2. 寄存器可以实现复制、粘贴、剪切文本; 可以记录一系列按键操作，制作宏命令 * 第10章 复制和粘贴> 1. vim提供几十个寄存器保存文本，比系统单一的剪切板多很多> 2. vim的粘贴可以面向行和面向字符> 3. 可视模式下的粘贴、系统剪切板的使用* 技巧 59. [用无名寄存器实现删除、复制和粘帖操作](part4_register/chapter10_copy_paste/tip59.md): `x`, `p`, `xp`, `dd`, `ddp`, `yyp`, `P`, `diw` * 技巧 60. [深入理解vim寄存器](part4_register/chapter10_copy_paste/tip60.md): `"{register}`, `"ayiw`, `"bdd`, `"ap`, `"bp`, `""p`, `"0P`, `:reg "0`, `"_d{motion}`, `"+`, `"+p <C-r>+` * 技巧 61. [用寄存器中的内容替换高亮选取的文本](part4_register/chapter10_copy_paste/tip61.md):*`m{char}`, `` `{char}``* 技巧 62. [把寄存器中的内容粘贴出来](part4_register/chapter10_copy_paste/tip62.md): `<C-r>{register}`, `p`, `P`, `gp`, `gP` * 技巧 63. [与系统粘贴板进行交互](part4_register/chapter10_copy_paste/tip63.md): `:set pastetoggle=<f5>`, `"+p`*
+* 第四部分 寄存器
+```
+> 1. 寄存器是保存文本的容器
+> 2. 寄存器可以实现复制、粘贴、剪切文本; 可以记录一系列按键操作，制作宏命令
+```
+  * 第10章 复制和粘贴
+```
+> 1. vim提供几十个寄存器保存文本，比系统单一的剪切板多很多
+> 2. vim的粘贴可以面向行和面向字符
+> 3. 可视模式下的粘贴、系统剪切板的使用
+```
+    * 技巧 59. [用无名寄存器实现删除、复制和粘帖操作](part4_register/chapter10_copy_paste/tip59.md): `x`, `p`, `xp`, `dd`, `ddp`, `yyp`, `P`, `diw` 
+    * 技巧 60. [深入理解vim寄存器](part4_register/chapter10_copy_paste/tip60.md): `"{register}`, `"ayiw`, `"bdd`, `"ap`, `"bp`, `""p`, `"0P`, `:reg "0`, `"_d{motion}`, `"+`, `"+p <C-r>+`
+    * 技巧 61. [用寄存器中的内容替换高亮选取的文本](part4_register/chapter10_copy_paste/tip61.md):*`m{char}`, `` `{char}``
+    * 技巧 62. [把寄存器中的内容粘贴出来](part4_register/chapter10_copy_paste/tip62.md): `<C-r>{register}`, `p`, `P`, `gp`, `gP`
+    * 技巧 63. [与系统粘贴板进行交互](part4_register/chapter10_copy_paste/tip63.md): `:set pastetoggle=<f5>`, `"+p`*
