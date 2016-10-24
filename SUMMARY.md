@@ -75,9 +75,9 @@
     * [技巧 35. 运行Shell命令](part1_pattern/chapter5_ex_mode/tip35.md): `:ls`,`:write! sh`,`:write !sh`,`:2,$!sort -t',' -k2,2`
 
 
-* 第二部分 文件 
+* [第二部分 文件 ](part2_file/chapter6_multi_files/tip36.md)
   
-  * 第6章 管理多个文件
+  * [第6章 管理多个文件](part2_file/chapter6_multi_files/tip36.md)
 ```
 > 1. 缓冲区列表记录打开的所有文件
 > 2. 缓冲区文件分组方法
@@ -90,7 +90,7 @@
     * [技巧 39. 将工作区分成窗口](part2_file/chapter6_multi_files/tip39.md): `<C-w>s`, `<C-w>v`, `:edit`, `:close`, `:only`
     * [技巧 40. 用标签页将窗口分组](part2_file/chapter6_multi_files/tip40.md): `:lcd{path}`, `:tabe[dit] {filename}`, `:tabmove [N]`  
   
-  * 第7章 打开及保存文件
+  * [第7章 打开及保存文件](part2_file/chapter7_file_opr/tip41.md)
 ```
 > 1. 介绍在vim 中打开文件的方式
 > 2. 配置`path`选项之后利用`:find` 命令打开文件
@@ -103,11 +103,11 @@
     * [技巧 44. 把文件保存到不存在的目录中](part2_file/chapter7_file_opr/tip44.md): `<C-g>`, `:!mkdir -p %:h`
     * [技巧 45. 以超级用户权限保存文件](part2_file/chapter7_file_opr/tip45.md): `:w !sudo tee % > /dev/null`
 
-* 第三部分 更快的移动和跳转
+* [第三部分 更快的移动和跳转](part3_fast_move/chapter8_doc_jump/tip46.md)
 ```
 > 学习vim如何在文件内、文件间快速跳转
 ```
-  * 第8章 用动作命令在文档中快速跳转
+  * [第8章 用动作命令在文档中快速跳转](part3_fast_move/chapter8_doc_jump/tip46.md)
 ```
 > 1. 使用动作（motion）命令在文档中跳转
 > 2. 上下左右移动、一次移动一个单词、通过查找命令快速移动
