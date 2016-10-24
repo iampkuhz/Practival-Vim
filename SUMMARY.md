@@ -123,18 +123,18 @@
     * [技巧 52. 删除周边，修改内部](part3_fast_move/chapter8_doc_jump/tip52.md):`iw`, `iW`, `is`, `ip`, `aw`, `aW`, `as`, `ap` 
     * [技巧 53. 设置位置标记，以便快速跳回](part3_fast_move/chapter8_doc_jump/tip53.md):`m{a-zA-Z}`, `'{mark}` 
     * [技巧 54. 在匹配括号间跳转](part3_fast_move/chapter8_doc_jump/tip54.md):`%`, `S"`  
-  * 第9章 在文件间跳转
+  * [第9章 在文件间跳转](part3_fast_move/chapter9_file_jump/tip55.md)
     * [技巧 55. 遍历跳转列表](part3_fast_move/chapter9_file_jump/tip55.md): `<C-o>`, `<C-i>` 
     * [技巧 56. 遍历改变列表](part3_fast_move/chapter9_file_jump/tip56.md): `:changes`, *`.*, *`^*, `gi` 
     * [技巧 57. 跳转到光标下的文件](part3_fast_move/chapter9_file_jump/tip57.md): `gf`, `:set path?` 
     * [技巧 58. 用全局位置标记在文件间快速跳转](part3_fast_move/chapter9_file_jump/tip58.md): `:vimgrep`, `` `{char}``
 
-* 第四部分 寄存器
+* [第四部分 寄存器](part4_register/chapter10_copy_paste/tip59.md)
 ```
 > 1. 寄存器是保存文本的容器
 > 2. 寄存器可以实现复制、粘贴、剪切文本; 可以记录一系列按键操作，制作宏命令
 ```
-  * 第10章 复制和粘贴
+  * [第10章 复制和粘贴](part4_register/chapter10_copy_paste/tip59.md)
 ```
 > 1. vim提供几十个寄存器保存文本，比系统单一的剪切板多很多
 > 2. vim的粘贴可以面向行和面向字符
@@ -146,7 +146,7 @@
     * [技巧 62. 把寄存器中的内容粘贴出来](part4_register/chapter10_copy_paste/tip62.md): `<C-r>{register}`, `p`, `P`, `gp`, `gP`
     * [技巧 63. 与系统粘贴板进行交互](part4_register/chapter10_copy_paste/tip63.md): `:set pastetoggle=<f5>`, `"+p`*
 
-  * 第11章 宏
+  * [第11章 宏](part4_register/chapter11_macro/tip64.md)
 ```
 > 1. 宏是`.`指令的加强版
 > 2. 宏适合对一系列相似的行、段落、文件上操作
