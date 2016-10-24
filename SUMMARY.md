@@ -52,4 +52,9 @@
 > 3. `.`命令对于行文本的操作用处较大, 其他可视模式里使用`.`意义不大
 ```    
     * 技巧 20. [深入理解可视模式](part1_pattern/chapter4_visual_mode/tip20.md): `viw`, `<C-g>`,`c`     
-    * 技巧 21. [选择高亮区域](part1_pattern/chapter4_visual_mode/tip21.md): `v`,`V`,`<C-v>`,`o`     * 技巧 22. [重复执行面向行的可视命令](part1_pattern/chapter4_visual_mode/tip22.md): `Vj>.`     * 技巧 23. [尽可能使用操作符命令,而不是可视命令](part1_pattern/chapter4_visual_mode/tip23.md): `vitU`, `gUit`     * 技巧 24. [用面向__列块__的可视模式编辑**表格数据**](part1_pattern/chapter4_visual_mode/tip24.md): `<C-v>3jr|`     * 技巧 25. [修改列文本](part1_pattern/chapter4_visual_mode/tip25.md): `<C-v>jjec<Esc>`     * 技巧 26. [在长短不一的高亮块中添加文本](part1_pattern/chapter4_visual_mode/tip26.md): `<C-v>jj$c<Esc>`
+    * 技巧 21. [选择高亮区域](part1_pattern/chapter4_visual_mode/tip21.md): `v`,`V`,`<C-v>`,`o`     
+    * 技巧 22. [重复执行面向行的可视命令](part1_pattern/chapter4_visual_mode/tip22.md): `Vj>.`     
+    * 技巧 23. [尽可能使用操作符命令,而不是可视命令](part1_pattern/chapter4_visual_mode/tip23.md): `vitU`, `gUit`     
+    * 技巧 24. [用面向__列块__的可视模式编辑**表格数据**](part1_pattern/chapter4_visual_mode/tip24.md): `<C-v>3jr|`     
+    * 技巧 25. [修改列文本](part1_pattern/chapter4_visual_mode/tip25.md): `<C-v>jjec<Esc>`    
+    * 技巧 26. [在长短不一的高亮块中添加文本](part1_pattern/chapter4_visual_mode/tip26.md): `<C-v>jj$c<Esc>`
