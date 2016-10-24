@@ -2,10 +2,15 @@
 
 ## 第1章 Vim 解决问题的方式
 技巧 1. [认识`.`命令](part0/tip1.md):  `.`,`x`,`u`,`dd`,`>G`,`h`,`j`,`k`,`l` <br>
+
 技巧 2. [不要自我重复](part0/tip2.md): `$`,`I`,`i`,`a`,`A` <br>
+
 技巧 3. [以退为进](part0/tip3.md): `f{char}`,`;`,`,`,`s` <br>
+
 技巧 4. [执行、重复、回退](part0/tip4.md): `.`,`u` <br>
+
 技巧 5. [查找并手动替换](part0/tip5.md): `:%s/content/copy/g`,`*`,`#` <br>
+
 技巧 6. [结识`.`范式](part0/tip6.md): `.`  <br>
 
 # 第一部分 模式
@@ -19,11 +24,15 @@
 > 3. 普通模式:操作符+动作命令
 
 技巧 7. [停顿时请移开画笔](part1_pattern/chapter2_normal_pattern/tip7.md)  <br>
+
 技巧 8. [把撤销的单元切成块](part1_pattern/chapter2_normal_pattern/tip8.md): `<Esc>o` <br>
+
 技巧 9. [尽量构造可重复的修改](part1_pattern/chapter2_normal_pattern/tip9.md): [VimGolf](http://vimgolf.com), `daw` vs `dbw` vs `dbx`  <br>
 
 技巧 10. [用次数做简单的算术运算](part1_pattern/chapter2_normal_pattern/tip10.md): `<C-a>`,`<C-x>`,`yyp`,`cw` <br>
+
 技巧 11. [能够重复,就别用次数](part1_pattern/chapter2_normal_pattern/tip12.md): `d3w` vs `3dw` vs `dw..`   <br>
+
 技巧 12. [操作+操作符 双剑合璧](part1_pattern/chapter2_normal_pattern/tip12.md): `gu`,`gU`,`g~`,`=`,`<`,`>` <br>
 
 
@@ -37,11 +46,17 @@
 
 
 技巧 13. [在插入模式中回退/撤销](part1_pattern/chapter3_insert_mode/tip13.md): `<C-x>`,`<C-w>`,`<C-u>` <br>
+
 技巧 14. [返回普通模式](part1_pattern/chapter3_insert_mode/tip14.md): `<` <br>
+
 技巧 15. [不离开插入模式, 粘贴寄存器中的文本](part1_pattern/chapter3_insert_mode/tip15.md): `yt,`,`<C-r>0`  <br>
+
 技巧 16. [随时随地做运算](part1_pattern/chapter3_insert_mode/tip16.md): `<C-r>=` <br>
+
 技巧 17. [用字符编码插入非常用字符](part1_pattern/chapter3_insert_mode/tip17.md):  `<C-v>{123}`,`<C-v>u{1234}`,`<C-v><CR>`<br>
+
 技巧 18. [用二合字母(digraph)插入非常用字符](part1_pattern/chapter3_insert_mode/tip18.md): `<C-k>35`,`<C-k>?I`,`<C-k><<` <br>
+
 技巧 19. [使用替换模式替换已有文本](part1_pattern/chapter3_insert_mode/tip19.md): `R`,`r` <br>
 
 ## 第4章 可视模式
@@ -51,11 +66,17 @@
 > 3. `.`命令对于行文本的操作用处较大, 其他可视模式里使用`.`意义不大
 
 技巧 20. [深入理解可视模式](part1_pattern/chapter4_visual_mode/tip20.md): `viw`, `<C-g>`,`c` <br>
+
 技巧 21. [选择高亮区域](part1_pattern/chapter4_visual_mode/tip21.md): `v`,`V`,`<C-v>`,`o`  <br>
+
 技巧 22. [重复执行面向行的可视命令](part1_pattern/chapter4_visual_mode/tip22.md): `Vj>.`  <br>
+
 技巧 23. [尽可能使用操作符命令,而不是可视命令](part1_pattern/chapter4_visual_mode/tip23.md): `vitU`, `gUit`  <br>
+
 技巧 24. [用面向__列块__的可视模式编辑**表格数据**](part1_pattern/chapter4_visual_mode/tip24.md): `<C-v>3jr|`  <br>
+
 技巧 25. [修改列文本](part1_pattern/chapter4_visual_mode/tip25.md): `<C-v>jjec<Esc>` <br>
+
 技巧 26. [在长短不一的高亮块中添加文本](part1_pattern/chapter4_visual_mode/tip26.md): `<C-v>jj$c<Esc>`  <br>
 
 ## 第5章 命令行模式
@@ -64,13 +85,21 @@
 > 2. 基于行的编辑任务, Ex 命令是最佳工具
 
 技巧 27. [结识Vim的命令行模式](part1_pattern/chapter5_ex_mode/tip27.md): `:`,`<C-w>`  <br>
+
 技巧 28. [在一行或多个连续行上执行命令](part1_pattern/chapter5_ex_mode/tip28.md): `:2,5p`,`:%s/old/new/gc`,`:/<html>/-1,/<\/html>/+1p`  <br>
+
 技巧 29. [使用`:t` `:m` 进行复制和移动行](part1_pattern/chapter5_ex_mode/tip29.md): `:6t.`,`Vjj:m$`  <br>
+
 技巧 30. [在指定范围上执行普通模式命令](part1_pattern/chapter5_ex_mode/tip30.md): `:'<,'>normal .`  <br>
+
 技巧 31. [重复上次的Ex命令](part1_pattern/chapter5_ex_mode/tip31.md):`:@:`, `:bp`,`:bn`  <br>
+
 技巧 32. [自动补全Ex命令](part1_pattern/chapter5_ex_mode/tip32.md):`<Tab>`,`<C-n>`,`<C-p>`  <br>
+
 技巧 33. [把当前单词插入到命令行](part1_pattern/chapter5_ex_mode/tip33.md): `/<C-r><C-w><CR>`, `*:%s//<C-r><C-w>/g`  <br>
+
 技巧 34. [回溯历史命令](part1_pattern/chapter5_ex_mode/tip34.md):`q:`  <br>
+
 技巧 35. [运行Shell命令](part1_pattern/chapter5_ex_mode/tip35.md): `:ls`,`:write! sh`,`:write !sh`,`:2,$!sort -t',' -k2,2`  <br>
 
 # 第二部分 文件
@@ -83,9 +112,13 @@
 > 4. 标签页分割窗口
 
 技巧 36. [用缓冲区列表管理打开的文件](part2_file/chapter6_multi_files/tip36.md):  `:bnext`, `:ls`, `<C-^>`, `:bprev`, `:bfirst`, `:blast`, `:buffer N`, `:buffer {bufname}`, `:bufdo`, `:argdo`, `:bd[elete]`<br>
+
 技巧 37. [用参数列表将缓冲区分组](part2_file/chapter6_multi_files/tip37.md):  `:args {arglist}`<br>
+
 技巧 38. [管理隐藏缓冲区](part2_file/chapter6_multi_files/tip38.md):  `:wirte`, `:edit!`, `qall!`, `:wall`<br>
+
 技巧 39. [将工作区分成窗口](part2_file/chapter6_multi_files/tip39.md):  `<C-w>s`, `<C-w>v`, `:edit`, `:close`, `:only`<br>
+
 技巧 40. [用标签页将窗口分组](part2_file/chapter6_multi_files/tip40.md): `:lcd{path}`, `:tabe[dit] {filename}`, `:tabmove [N]` <br>
 
 ## 第7章 打开及保存文件
@@ -96,9 +129,13 @@
 > 4. 保存文件的时候如果没有**写权限**或是目标路径不存在怎么办？
 
 技巧 41. [用`:edit`命令打开文件](part2_file/chapter7_file_opr/tip41.md): `:edit %<Tab>`, `:edit %:h<Tab>`<br>
+
 技巧 42. [使用`:find`打开文件](part2_file/chapter7_file_opr/tip42.md): `:find`, `:set path+=app/**`<br>
+
 技巧 43. [使用netrw管理文件系统](part2_file/chapter7_file_opr/tip43.md):`:edit .`, `:e.`, `:Explore`, `:E.` <br>
+
 技巧 44. [把文件保存到不存在的目录中](part2_file/chapter7_file_opr/tip44.md): `<C-g>`, `:!mkdir -p %:h`<br>
+
 技巧 45. [以超级用户权限保存文件](part2_file/chapter7_file_opr/tip45.md): `:w !sudo tee % > /dev/null` <br>
 
 
@@ -114,21 +151,32 @@
 > 4. 查看vim文档`:h motion`
 
 技巧 46. [让手指保持在 `本位行（Home Row）`上](part3_fast_move/chapter8_doc_jump/tip46.md):  `h,j,k,l`<br>
+
 技巧 47. [区分实际行和屏幕行](part3_fast_move/chapter8_doc_jump/tip47.md):`gj`, `gk`, `g0`, `g$`, `g^`  <br>
+
 技巧 48. [基于单词移动](part3_fast_move/chapter8_doc_jump/tip48.md):`w`, `b`, `e`, `ge`, `ea`, `gea`, `W`, `cW` <br>
+
 技巧 49. [对字符串进行查找](part3_fast_move/chapter8_doc_jump/tip49.md):`f{char}`, `;`, `,`, `F{char}`, `t{char}`, `T{char}`, `dt.`  <br>
+
 技巧 50. [通过查找进行移动](part3_fast_move/chapter8_doc_jump/tip50.md):`/{char}`, `n`, `N`   <br>
+
 技巧 51. [用精确的文本对象选择选取](part3_fast_move/chapter8_doc_jump/tip51.md):`vi}`, `a"`, `i"`, `at`, `it`  <br>
+
 技巧 52. [删除周边，修改内部](part3_fast_move/chapter8_doc_jump/tip52.md):`iw`, `iW`, `is`, `ip`, `aw`, `aW`, `as`, `ap`  <br>
+
 技巧 53. [设置位置标记，以便快速跳回](part3_fast_move/chapter8_doc_jump/tip53.md):`m{a-zA-Z}`, `'{mark}`  <br>
+
 技巧 54. [在匹配括号间跳转](part3_fast_move/chapter8_doc_jump/tip54.md):`%`, `S"`  <br>
 
 ## 第9章 在文件间跳转
 
 
 技巧 55. [遍历跳转列表](part3_fast_move/chapter9_file_jump/tip55.md): `<C-o>`, `<C-i>` <br>
+
 技巧 56. [遍历改变列表](part3_fast_move/chapter9_file_jump/tip56.md):  `:changes`, **`.**, **`^**, `gi` <br>
+
 技巧 57. [跳转到光标下的文件](part3_fast_move/chapter9_file_jump/tip57.md): `gf`, `:set path?` <br>
+
 技巧 58. [用全局位置标记在文件间快速跳转](part3_fast_move/chapter9_file_jump/tip58.md): `:vimgrep`, `` `{char}`` <br>
 
 # 第四部分 寄存器
