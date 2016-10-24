@@ -28,6 +28,13 @@
     * [操作+操作符 双剑合璧](part1_pattern/chapter2_normal_pattern/tip12.md)
 
   * 第3章 插入模式
+```
+> 1. 大多数操作都在非插入模式中实现(复制\删除\剪切\黏贴)
+> 2. 不离开插入模式就可以黏贴寄存器中的文本
+> 3. 如何插入键盘上不存在的字符?
+> 4. 替换模式是插入模式的特例
+> 5. `插入-普通模式`是插入模式的子集
+```
     * 技巧 13. [在插入模式中回退/撤销](part1_pattern/chapter3_insert_mode/tip13.md): `<C-x>`,`<C-w>`,`<C-u>`
     * 技巧 14. [返回普通模式](part1_pattern/chapter3_insert_mode/tip14.md): `<` 
     * 技巧 15. [不离开插入模式, 粘贴寄存器中的文本](part1_pattern/chapter3_insert_mode/tip15.md): `yt,`,`<C-r>0`
