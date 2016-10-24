@@ -146,4 +146,11 @@
     * 技巧 62. [把寄存器中的内容粘贴出来](part4_register/chapter10_copy_paste/tip62.md): `<C-r>{register}`, `p`, `P`, `gp`, `gP`
     * 技巧 63. [与系统粘贴板进行交互](part4_register/chapter10_copy_paste/tip63.md): `:set pastetoggle=<f5>`, `"+p`*
 
-  * 第11章 宏> 1. 宏是`.`指令的加强版> 2. 宏适合对一系列相似的行、段落、文件上操作> 3. 宏的执行分2种方式：串行方式回放 和 并行方式多次运行* 技巧 64. [宏的读取和执行](part4_register/chapter11_macro/tip64.md): `q`, `q{register}`, `:reg a`, `@{register}`, `@@`** 技巧 65. [规范光标位置、直达目标以及终止宏](part4_register/chapter11_macro/tip65.md):*`{number}@a` * 技巧 66. [加次数回放宏](part4_register/chapter11_macro/tip66.md):*`qq;.q`** 技巧 67. [在连续的文本行上重复修改](part4_register/chapter11_macro/tip67.md):*`0`, `:normal @a` * 技巧 68. [给宏追加命令](part4_register/chapter11_macro/tip68.md):*`qa`, `qA` * 技巧 69. [在一组文件中执行宏](part4_register/chapter11_macro/tip69.md):*`gg/class<CR>`, `:argdo`, `:edit!`, `:argdo normal @a`, `:argdo write`, `:wall`, `:wnext`** 技巧 70. [用迭代求值的方式给列表编号](part4_register/chapter11_macro/tip70.md):*`:let i=0`, `:echo i`, `<C-r>=i<CR>` * 技巧 71. [编辑宏的内容](part4_register/chapter11_macro/tip71.md):*`~`, `vU`, `:put a` <br>
+  * 第11章 宏
+```
+> 1. 宏是`.`指令的加强版
+> 2. 宏适合对一系列相似的行、段落、文件上操作
+> 3. 宏的执行分2种方式：串行方式回放 和 并行方式多次运行
+```
+    * 技巧 64. [宏的读取和执行](part4_register/chapter11_macro/tip64.md): `q`, `q{register}`, `:reg a`, `@{register}`, `@@`
+    * 技巧 65. [规范光标位置、直达目标以及终止宏](part4_register/chapter11_macro/tip65.md):*`{number}@a` * 技巧 66. [加次数回放宏](part4_register/chapter11_macro/tip66.md):*`qq;.q`** 技巧 67. [在连续的文本行上重复修改](part4_register/chapter11_macro/tip67.md):*`0`, `:normal @a` * 技巧 68. [给宏追加命令](part4_register/chapter11_macro/tip68.md):*`qa`, `qA` * 技巧 69. [在一组文件中执行宏](part4_register/chapter11_macro/tip69.md):*`gg/class<CR>`, `:argdo`, `:edit!`, `:argdo normal @a`, `:argdo write`, `:wall`, `:wnext`** 技巧 70. [用迭代求值的方式给列表编号](part4_register/chapter11_macro/tip70.md):*`:let i=0`, `:echo i`, `<C-r>=i<CR>` * 技巧 71. [编辑宏的内容](part4_register/chapter11_macro/tip71.md):*`~`, `vU`, `:put a` <br>
