@@ -1,0 +1,370 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>不要自我重复 · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.1.1">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="tip3.html" />
+    
+    
+    <link rel="prev" href="tip1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="README.md">
+            
+                <span>
+            
+                    
+                    第1章 Vim 解决问题的方式
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="tip1.html">
+            
+                <a href="tip1.html">
+            
+                    
+                    技巧 1. 认识.命令:  .,x,u,dd,>G,h,j,k,l
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="tip2.html">
+            
+                <a href="tip2.html">
+            
+                    
+                    不要自我重复
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="tip3.html">
+            
+                <a href="tip3.html">
+            
+                    
+                    以退为进
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="tip4.html">
+            
+                <a href="tip4.html">
+            
+                    
+                    执行、重复、回退
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="tip5.html">
+            
+                <a href="tip5.html">
+            
+                    
+                    查找并手动替换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="tip6.html">
+            
+                <a href="tip6.html">
+            
+                    
+                    结识.范式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >不要自我重复</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6280;&#x5DE7;2-&#x4E0D;&#x8981;&#x81EA;&#x6211;&#x91CD;&#x590D;">&#x6280;&#x5DE7;2: &#x4E0D;&#x8981;&#x81EA;&#x6211;&#x91CD;&#x590D;</h1>
+<ol>
+<li><code>$</code>:&#x5149;&#x6807;&#x79FB;&#x52A8;&#x5230;&#x5F53;&#x524D;&#x884C;&#x7684;&#x672B;&#x5C3E;</li>
+<li><code>I</code>:&#x5728;&#x5149;&#x6807;&#x6240;&#x5728;&#x5B57;&#x7B26;&#x6240;&#x5728;&#x884C;&#x7684;&#x5F00;&#x5934;&#x63D2;&#x5165;&#x5185;&#x5BB9;</li>
+<li><code>i</code>:&#x5728;&#x5149;&#x6807;&#x6240;&#x5728;&#x5B57;&#x7B26;&#x7684;&#x4E0A;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4F4D;&#x7F6E;&#x63D2;&#x5165;&#x5185;&#x5BB9;</li>
+<li><code>a</code>:&#x5728;&#x5149;&#x6807;&#x6240;&#x5728;&#x5B57;&#x7B26;&#x7684;&#x4E0B;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4F4D;&#x7F6E;&#x63D2;&#x5165;&#x5185;&#x5BB9;</li>
+<li><code>A</code>:&#x5728;&#x5149;&#x6807;&#x6240;&#x5728;&#x5B57;&#x7B26;&#x6240;&#x5728;&#x884C;&#x7684;&#x7ED3;&#x5C3E;&#x63D2;&#x5165;&#x5185;&#x5BB9;</li>
+</ol>
+<h3 id="&#x4F8B;&#x5B50;&#x6BCF;&#x884C;&#x7ED3;&#x5C3E;&#x63D2;&#x5165;&#x5B57;&#x7B26;">&#x4F8B;&#x5B50;:&#x6BCF;&#x884C;&#x7ED3;&#x5C3E;&#x63D2;&#x5165;<code>;</code>&#x5B57;&#x7B26;</h3>
+<ol>
+<li><code>$a;&lt;Esc&gt;</code>:&#x5149;&#x6807;&#x79FB;&#x52A8;&#x5230;&#x6539;&#x884C;&#x672B;&#x5C3E;(<code>$</code>),&#x5728;&#x672B;&#x5C3E;&#x63D2;&#x5165;(<code>a</code>), &#x63D2;&#x5165;&#x5B57;&#x7B26;(<code>;</code>),&#x9000;&#x56DE;&#x5230;&#x666E;&#x901A;&#x6A21;&#x5F0F;(<code>&lt;Esc&gt;</code>) <br></li>
+<li><code>j$a;&lt;Esc&gt;</code>:&#x5149;&#x6807;&#x79FB;&#x52A8;&#x5230;&#x4E0B;&#x4E00;&#x884C;(<code>j</code>),&#x5149;&#x6807;&#x79FB;&#x52A8;&#x5230;&#x6539;&#x884C;&#x672B;&#x5C3E;(<code>$</code>),&#x5728;&#x672B;&#x5C3E;&#x63D2;&#x5165;(<code>a</code>), &#x63D2;&#x5165;&#x5B57;&#x7B26;(<code>;</code>),&#x9000;&#x56DE;&#x5230;&#x666E;&#x901A;&#x6A21;&#x5F0F;(<code>&lt;Esc&gt;</code>) <br></li>
+<li><code>j$a;&lt;Esc&gt;</code>:&#x5149;&#x6807;&#x79FB;&#x52A8;&#x5230;&#x4E0B;&#x4E00;&#x884C;(<code>j</code>),&#x5149;&#x6807;&#x79FB;&#x52A8;&#x5230;&#x6539;&#x884C;&#x672B;&#x5C3E;(<code>$</code>),&#x5728;&#x672B;&#x5C3E;&#x63D2;&#x5165;(<code>a</code>), &#x63D2;&#x5165;&#x5B57;&#x7B26;(<code>;</code>),&#x9000;&#x56DE;&#x5230;&#x666E;&#x901A;&#x6A21;&#x5F0F;(<code>&lt;Esc&gt;</code>) <br></li>
+<li>...</li>
+</ol>
+<h3 id="&#x51CF;&#x5C11;&#x65E0;&#x5173;&#x64CD;&#x4F5C;">&#x51CF;&#x5C11;&#x65E0;&#x5173;&#x64CD;&#x4F5C;</h3>
+<p><code>A</code>&#x66FF;&#x4EE3;&#x4E86;<code>$a</code>&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x4E3A;&#x4E86;&#x51CF;&#x5C11;&#x6309;&#x952E;&#xFF0C;&#x5E94;&#x8BE5;&#x4F7F;&#x7528;<code>A</code>,&#x4E0A;&#x9762;&#x7684;&#x64CD;&#x4F5C;&#x53D8;&#x6210;</p>
+<blockquote>
+<p><code>A;&lt;Esc&gt;</code>
+<code>jA;&lt;Esc&gt;</code>
+<code>jA;&lt;Esc&gt;</code>
+...</p>
+</blockquote>
+<h3 id="&#x4F8B;&#x5B50;&#xFF1A;-&#x6BCF;&#x884C;&#x672B;&#x5C3E;&#x52A0;&#x4E0A;">&#x4F8B;&#x5B50;&#xFF1A; &#x6BCF;&#x884C;&#x672B;&#x5C3E;&#x52A0;&#x4E0A;<code>;</code></h3>
+<p><img src="../images/tip2.png" alt="tip2">  </p>
+<p><br>  </p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x4E0A;&#x4E00;&#x7BC7;</th>
+<th style="text-align:right">&#x4E0B;&#x4E00;&#x7BC7;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><a href="tip1.html">Tip1 &#x8BA4;&#x8BC6;<code>.</code>&#x547D;&#x4EE4;</a></td>
+<td style="text-align:right"><a href="tip3.html">Tip3 &#x4EE5;&#x9000;&#x4E3A;&#x8FDB;</a></td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="tip1.html" class="navigation navigation-prev " aria-label="Previous page: 技巧 1. 认识.命令:  .,x,u,dd,>G,h,j,k,l">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="tip3.html" class="navigation navigation-next " aria-label="Next page: 以退为进">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"不要自我重复","level":"1.2.2","depth":2,"next":{"title":"以退为进","level":"1.2.3","depth":2,"path":"part0/tip3.md","ref":"part0/tip3.md","articles":[]},"previous":{"title":"技巧 1. 认识.命令:  .,x,u,dd,>G,h,j,k,l","level":"1.2.1","depth":2,"path":"part0/tip1.md","ref":"part0/tip1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part0/tip2.md","mtime":"2016-02-09T09:14:38.812Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-06-29T07:54:05.638Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
