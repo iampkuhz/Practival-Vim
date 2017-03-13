@@ -1,4 +1,4 @@
-《Practical Vim》（《Vim实用技巧》）笔记，参考了[gitig/Practical-Vim-Notes](https://github.com/gitig/Practical-Vim-Notes) 和`中文版 Practical Vim`，加入了一些我的理解和例子, 教程的[写作方式](tip1.markdown)
+《Practical Vim》（《Vim实用技巧》）笔记，参考了[gitig/Practical-Vim-Notes](https://github.com/gitig/Practical-Vim-Notes) 和`中文版 Practical Vim`，加入了一些我的理解和例子, 教程的[写作方式](part0/tip1.markdown)
 
 ## 第1章 Vim 解决问题的方式
 技巧 1. [认识`.`命令](part0/tip1.md):  `.`,`x`,`u`,`dd`,`>G`,`h`,`j`,`k`,`l` <br>
