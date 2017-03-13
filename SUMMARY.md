@@ -123,7 +123,10 @@
     * [技巧 52. 删除周边，修改内部](part3_fast_move/chapter8_doc_jump/tip52.md):`iw`, `iW`, `is`, `ip`, `aw`, `aW`, `as`, `ap` 
     * [技巧 53. 设置位置标记，以便快速跳回](part3_fast_move/chapter8_doc_jump/tip53.md):`m{a-zA-Z}`, `'{mark}` 
     * [技巧 54. 在匹配括号间跳转](part3_fast_move/chapter8_doc_jump/tip54.md):`%`, `S"`  
+    
   * [第9章 在文件间跳转](part3_fast_move/chapter9_file_jump/tip55.md)
+```
+```
     * [技巧 55. 遍历跳转列表](part3_fast_move/chapter9_file_jump/tip55.md): `<C-o>`, `<C-i>` 
     * [技巧 56. 遍历改变列表](part3_fast_move/chapter9_file_jump/tip56.md): `:changes`, *`.*, *`^*, `gi` 
     * [技巧 57. 跳转到光标下的文件](part3_fast_move/chapter9_file_jump/tip57.md): `gf`, `:set path?` 
@@ -160,3 +163,38 @@
     * [技巧 69. 在一组文件中执行宏](part4_register/chapter11_macro/tip69.md):*`gg/class<CR>`, `:argdo`, `:edit!`, `:argdo normal @a`, `:argdo write`, `:wall`, `:wnext`
     * [技巧 70. 用迭代求值的方式给列表编号](part4_register/chapter11_macro/tip70.md):*`:let i=0`, `:echo i`, `<C-r>=i<CR>` 
     * [技巧 71. 编辑宏的内容](part4_register/chapter11_macro/tip71.md):*`~`, `vU`, `:put a` <br>
+    
+* [第五部分 模式](part5_pattern/chapter12_match/tip72.md)
+```
+> 1. pattern使得构造正则表达式和原义查找文本变得容易
+> 2. substitute和global是2个强大的Ex命令
+```
+  * [第12章 按模式匹配和按原义匹配](part5_pattern/chapter12_match/tip72.md)
+```
+> 1. 查找时替换的前提，如何在查找时使用正则表达式？
+> 2. `very magic`、`very nomagic`模式、原义开关都是什么，什么用？
+> 3. 零宽度定界符有哪些？各自作用是？
+```
+    * [技巧 72. 调整查找模式的大小写敏感性](part5_pattern/chapter12_match/tip72.md): `\c`, `\C`
+    * [技巧 73. 使用`\v`模式进行正则表达式查找](part5_pattern/chapter12_match/tip73.md): `\v`
+    * [技巧 74. 完全匹配字符串时，使用`\V` 查找](part5_pattern/chapter12_match/tip74.md):  `\V`
+    * [技巧 75. 使用圆括号`()`获取子匹配](part5_pattern/chapter12_match/tip75.md):  `()`
+    * [技巧 76. 使用`<`,`>`界定单词边界](part5_pattern/chapter12_match/tip76.md): `<`, `>`
+    * [技巧 77. 界定匹配的边界（使用`\zs`, `\ze`）](part5_pattern/chapter12_match/tip77.md): `\zs`, `\ze`
+    * [技巧 78. 转移问题字符](part5_pattern/chapter12_match/tip78.md): `/\?`需要转义
+
+  * [第13章 查找](part5_pattern/chapter13_search/tip79.md)
+```
+> 1. 查找模式可以自动补全匹配、减少按键次数、统计匹配数量
+> 2. 构造正确的正则表达式一般需要调试多次，我们可以迭代的构造模式，减少调试代价
+> 3. 可以定制命令，查找高亮选区的文本
+> 4. 定制自己的`*`，在可视模式下也可快速查找选中的文本
+```
+    * [技巧 79. 查找命令入门](part5_pattern/chapter13_search/tip79.md): `/`, `?`, `n`, `N`
+    * [技巧 80. 高亮查找匹配](part5_pattern/chapter13_search/tip80.md): `hlsearch`, `noh`, `<C-l>`
+    * [技巧 81. 在执行查找前预览第一处匹配](part5_pattern/chapter13_search/tip81.md): `incsearch`, `<C-r><C-w>`
+    * [技巧 82. 统计当前模式的匹配个数](part5_pattern/chapter13_search/tip82.md): `:%s///gn`
+    * [技巧 83. 将光标偏移到查找匹配的结尾](part5_pattern/chapter13_search/tip83.md): `/xxxx/e`
+    * [技巧 84. 对完整的查找匹配进行操作](part5_pattern/chapter13_search/tip84.md): `/\vX(ht)?ml\C`,`gUfl`
+    * [技巧 85. 利用查找历史， 迭代完成复杂的模式](part5_pattern/chapter13_search/tip85.md): `:%s/\v'(([^']|'\w)+)'/“\1”/g`
+    * [技巧 86. 查找当前高亮选区中的文本](part5_pattern/chapter13_search/tip86.md): `y/<C-R>"`

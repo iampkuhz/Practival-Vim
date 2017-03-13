@@ -2,3 +2,6 @@ Practical-Vim-Notes-master/
 Practical-Vim-Notes/
 .idea/
 book.pdf
+_book
+*.pdf
+.*
