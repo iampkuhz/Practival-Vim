@@ -270,3 +270,30 @@
 
 技巧 86. [查找当前高亮选区中的文本](part5_pattern/chapter13_search/tip86.md): `y/<C-R>"`
 
+## 第14章 替换
+
+> 1. 替换和查找是最常用的vim命令
+> 2. 替换命令中的查找域可以为空
+> 3. 替换命令支持跨文件操作
+> 4. 替换命令中的替换域支持脚本表达式，实现复杂操作
+
+技巧 87. [结识 substitute 命令](part5_pattern/chapter14_substitute/tip87.md): `：[range]s/{pattern}/{string}/[flags]`
+
+技巧 88. [在文件范围内查找并替换每一处匹配](part5_pattern/chapter14_substitute/tip88.md): `:%s/going/rolling/g`
+
+技巧 89. [手动控制每一次替换操作](part5_pattern/chapter14_substitute/tip89.md): `:%s/content/copy/gc`
+
+技巧 90. [重用上次的查找模式](part5_pattern/chapter14_substitute/tip90.md): `:%s//“\1”/g`, `:%s/\n/,/g`, `:%s/<C-r>//“\1”/g` 
+
+技巧 91. [用寄存器的内容替换](part5_pattern/chapter14_substitute/tip91.md): `:%s//<C-r>0/g`
+
+技巧 92. [重复上一次 substitute 命令](part5_pattern/chapter14_substitute/tip92.md): `:%s//~/&`, `g&`, `:%s/Name/Number/g`, `:%&&`
+
+技巧 93. [使用子匹配重排CSV文件的字段](part5_pattern/chapter14_substitute/tip93.md): `/\v^([^,]*),([^,]*),([^,]*)$`、`:%s//\3,\2,\1`
+
+技巧 94. [在替换过程中执行算术运算 ](part5_pattern/chapter14_substitute/tip94.md): `/\v\<\/?h\zs\d`, `:%s//\=submatch(0)-1/g`
+
+技巧 95. [交换两个或更多的单词](part5_pattern/chapter14_substitute/tip95.md): `:%s//\={"dog":"man","man":"dog"}[submatch(1)]/g`
+
+技巧 96. [在多个文件中执行查找与替换](part5_pattern/chapter14_substitute/tip96.md): `:argdo %s//Practical/g`, `:vimgrep /<C-r>// **/*.txt`
+
