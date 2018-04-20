@@ -297,3 +297,93 @@
 
 技巧 96. [在多个文件中执行查找与替换](part5_pattern/chapter14_substitute/tip96.md): `:argdo %s//Practical/g`, `:vimgrep /<C-r>// **/*.txt`
 
+## 第15章 global 命令
+
+> 1. global 命令融合了Ex命令与Vim模式匹配的能力
+> 2. 可以在指定模式的所有匹配行上运行Ex命令
+> 3. global 命令是除了点范式和宏以外，最强大的Vim工具
+
+技巧 97. [结识 global 命令](part5_pattern/chapter15_global_cmd/tip97.md): `:[range] global[!] /{pattern}/ [cmd]`
+
+技巧 98. [删除所有包含模式的文本行](part5_pattern/chapter15_global_cmd/tip97.md): `/\v\<\/?\w+>`,`:g//d`,`:v/href/d`,`:g/re/p`
+
+技巧 99. [将 TODO 项收集至寄存器](part5_pattern/chapter15_global_cmd/tip97.md): `:global`,`:yank`
+
+技巧 100. [将 CSS 文件中所有规则的属性按照字母排序](part5_pattern/chapter15_global_cmd/tip100.md): `:g/{/ .+1,/}/-1 sort`
+
+
+# 第六部分 工具
+
+> 1. vim内可以方便调用make、grep等外部程序
+> 2. vim提供拼写检查和自动补全等命令
+
+## 第16章 通过 ctags 建立索引，并用其浏览源代码
+
+> 1. ctags使我们可以快速跳到函数和类的定义处，实现浏览整个代码库
+> 2. ctags的结果也可以用于自动补全
+
+技巧 101. [结识ctags](part6_tools/chapter16_ctags/tip101.md): `ctags *`
+
+技巧 102. [配置 Vim 使用 ctags](part6_tools/chapter16_ctags/tip102.md): `:set tags?`,`:!ctags -R`
+
+技巧 103. [使用 Vim 的标签跳转命令，浏览关键字的定义](part6_tools/chapter16_ctags/tip103.md): `<C-t>`,`<C-]>`,`g<C-]>`,`:tag {keyword}`,`:tjump {keyword}`
+
+## 第17章 编译代码，并通过 Quickfix 列表浏览错误信息
+
+> 1. quickfix列表会维护乙组文件名、行号、列号（可选）与消息组成的注释定位信息
+> 2. 可以使用`:make`命令编译，并将错误信息进行解析，在quickfix列表中提供浏览
+
+技巧 104. [不用离开 Vim 也能编译代码](part6_tools/chapter17_compile/tip104.md): `make`, `:cnext`
+
+技巧 105. [浏览 Quickfix 列表](part6_tools/chapter17_compile/tip105.md): `:cprev`,`:cnext`,`:cfirst`,`:clast`,`:cnfile`,`:cpfile`,`:cc N`, `:copen`
+
+技巧 106. [回溯以前的 Quickfix 列表](part6_tools/chapter17_compile/tip106.md): `:colder`,`:cnewer`, `:5colder`
+
+技巧 107. [定制外部编译器](part6_tools/chapter17_compile/tip107.md): `:setglobal errorformat?`
+
+
+## 第18章  通过 grep、vimgrep 以及其他工具对整个工程进行查找
+
+> 1. `:grep`可以在不离开vim下调用外部程序
+> 2. `:gep`可以调用grep，也可以调用ack
+> 3. `:vimgrep`允许在多个文件中指定查找模式
+
+技巧 108. [不必离开 Vim 也能调用 grep](part6_tools/chapter18_grep_search/tip108.md): `:grep Waldo *`
+
+技巧 109. [定制grep程序](part6_tools/chapter18_grep_search/tip109.md): `grepprg`,`grepformat`
+
+技巧 110. [使用 Vim 内部的 Grep](part6_tools/chapter18_grep_search/tip110.md): `:vimgrep`,`vim /<C-r>// **`
+ 
+
+## 第19章 自动补全
+
+> 1. vim可以从限定的来源（缓冲区文件、头文件、标签文件）来进行自动补全
+> 2. 介绍如何从补全列表中获取正确的单词，以及如何获取相关度最高的补全建议
+
+技巧 111. [结识 Vim 的关键字自动补全](part6_tools/chapter19_auto_complete/tip111.md): `<C-p>`,`<C-n>`,`<C-x>`
+
+技巧 112. [与自动补全的弹出式菜单进行交互](part6_tools/chapter19_auto_complete/tip112.md): `<C-n>`等价于`<Down>`;`<C-p>`等价于`<Up>`
+
+技巧 113. [掌握关键字的来龙去脉](part6_tools/chapter19_auto_complete/tip113.md): `<C-x><C-n>`,`<C-x><C-i>`,`<C-x><C-]>`
+
+技巧 114. [使用字典中的单词进行自动补全](part6_tools/chapter19_auto_complete/tip114.md): `<C-x><C-k>`,`:set spell`
+
+技巧 115. [自动补全整行文本](part6_tools/chapter19_auto_complete/tip115.md) 
+
+技巧 116. [自动补全文件名](part6_tools/chapter19_auto_complete/tip116.md): `<C-x><C-f>`
+
+技巧 117. [根据上下文自动补全](part6_tools/chapter19_auto_complete/tip117.md): `<C-x><C-o>`
+
+## 第20章 利用 Vim 的拼写检查器，查找并更正拼写错误
+
+> 1. vim的拼写检查可以针对不同语言/地区使用不同的规则
+> 2. 插入模式下也可以使用拼写检查
+> 3. 可以对拼写检查的单词表进行自定义（添加/删除）
+
+技巧 118. [对你的工作进行拼写检查](part6_tools/chapter20_spell_check/tip118.md): `[s`,`]s`,`2z=`
+
+技巧 119. [使用其他拼写字典](part6_tools/chapter20_spell_check/tip119.md): `:set spelllang=en_us`
+
+技巧 120. [将单词添加到拼写文件中](part6_tools/chapter20_spell_check/tip120.md): `zg`,`zw`
+
+技巧 121. [在插入模式下更正拼写错误](part6_tools/chapter20_spell_check/tip121.md): `<C-x>s`
